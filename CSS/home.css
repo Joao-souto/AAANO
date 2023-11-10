@@ -1,0 +1,30 @@
+@charset 'utf-8';
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* MENU DE NAVEGAÇÃO */
+
+header{
+    background-color: #2E9B84;
+    height: 15vh;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-self: center;
+}
+
+.linkMenu{
+    margin-left: 13vw;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 3vh;
+}
+
+#logo{
+    height: 13vh;
+}
