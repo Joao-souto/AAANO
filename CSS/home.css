@@ -7,7 +7,7 @@
 /* MENU DE NAVEGAÇÃO */
 
 header{
-    background-color: #2E9B84;
+    background-color: #8DC6BA;
     height: 15vh;
     display: flex;
 }
@@ -18,7 +18,7 @@ nav{
 }
 
 .linkMenu{
-    margin-left: 13vw;
+    margin-left: 10vw;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
@@ -26,5 +26,16 @@ nav{
 }
 
 #logo{
-    height: 13vh;
+    height: 15vh;
+    align-self: center;
+    margin-right: 3vw;
+    margin-left: 4vw;
 }
+
+/* RODAPÉ */
+footer{
+    background-color: #8DC6BA;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
