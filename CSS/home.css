@@ -51,24 +51,55 @@ nav{
 
 .titulo{
     color: #880404;
-    font-size: 9vh;
+    font-size: 6vw;
     font-weight: bold;
-    padding: 3vh;
+    padding: 2vw;
 }
 
 .textoGen{
-    font-size: 4vh;
+    font-size: 3vw;
     font-weight: bold;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    padding: 3vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 3vw;
 }
 
 /* PARTE DO HOVER PRINCIPAL */
 
-.ptr{
-    
+.txt{
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
+
+.ptr{
+    display: flex;
+    justify-content: center;
+}
+
+.iconHover{
+    width: 15vw;
+    margin: 2vw;
+}
+
+.fundoHover{
+    background-color: #8DC6BA;
+    padding: 3vw;
+    margin: 3vw;
+    text-align: center;
+    border-radius: 4rem;
+}
+
+.fundoHover:hover{
+    background-color: #E5E1E0;
+    border: solid 1px #880404;
+    .txt{
+        font-size: 3.2vw;
+        color: #880404;
+    }
+}
+
 
 
 
