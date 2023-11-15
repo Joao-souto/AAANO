@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/* MENU DE NAVEGAÇÃO */
+            /* MENU DE NAVEGAÇÃO */
 
 header{
     background-color: #8DC6BA;
@@ -17,12 +17,20 @@ nav{
     align-self: center;
 }
 
+
 .linkMenu{
     margin-left: 10vw;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size: 3vh;
+    padding: 2vh;
+}
+
+.linkMenu:hover{
+    color: #E5E1E0;
+    font-size: 3.1vh;
+    font-weight: bold;
 }
 
 #logo{
@@ -32,7 +40,9 @@ nav{
     margin-left: 4vw;
 }
 
-/* RODAPÉ */
+
+
+            /* RODAPÉ */
 footer{
     background-color: #8DC6BA;
     text-align: center;
@@ -53,7 +63,8 @@ footer{
 .iconRod{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 5vh;    
+    margin-top: 5vh;
+     
 }
 
 .ctt{
@@ -62,13 +73,14 @@ footer{
     padding: 2vh;
     font-size: 3vh;
     font-weight: bold;
-    margin: 2vh;
+    margin: 3vh;
     border-radius: 15px;
 }
 
 .contatos{
     display: flex;
     flex-direction: column;
+    margin-left: -20vw;
 }
 
 .c1{
@@ -88,8 +100,7 @@ footer{
 
 .ddd{
     font-weight: bold;
-    font-size: 20px;
-    margin: 2.5vh;
+    margin: 3vh;
 }
 
 span{
