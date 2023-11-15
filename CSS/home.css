@@ -39,3 +39,33 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#logoFooter{
+    height: 15vh;
+    margin: 3vh;
+}
+
+#h2Footer{
+    font-size: 16px;
+    margin-top: -5vh;
+}
+
+.iconRod{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ctt{
+    background-color: #880404;
+    color: white;
+    padding: 2vh;
+    font-size: 3vh;
+    font-weight: bold;
+    margin: 2vh;
+    margin-top: ;
+    border-radius: 15px;
+}
+
+.icon{
+    width: 3vw;
+    margin: 0.4vw;
+}
