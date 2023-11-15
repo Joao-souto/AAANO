@@ -44,14 +44,16 @@ footer{
     margin: 3vh;
 }
 
-#h2Footer{
+.h2Footer{
     font-size: 16px;
-    margin-top: -5vh;
+    margin-top: -3vh;
+    font-weight: bold;
 }
 
 .iconRod{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 5vh;    
 }
 
 .ctt{
@@ -61,11 +63,39 @@ footer{
     font-size: 3vh;
     font-weight: bold;
     margin: 2vh;
-    margin-top: ;
     border-radius: 15px;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.c1{
+    display: flex;
+    align-items: center;
 }
 
 .icon{
     width: 3vw;
     margin: 0.4vw;
+}
+
+.icon1{
+    width: 2vw;
+    margin: 0.4vw;
+}
+
+.ddd{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 2.5vh;
+}
+
+span{
+    font-weight: 300;
+}
+
+#copy{
+    font-size: small;
 }
