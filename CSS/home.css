@@ -94,16 +94,31 @@ nav li{
 
             /* MAIN */
 
-#ajudeAnimais{
+.ajudeAnimais{
     text-align: center;
     background-color: #E5E1E0;
+}
+
+.ajudeAnimais1{
+    background-color: #8DC6BA;
+    margin-bottom: -2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo{
     color: #880404;
     font-size: 6vw;
     font-weight: bold;
-    padding: 1vw;
+    padding: 2vw;
+}
+
+.titulo1{
+    color: white;
+    font-size: 6vw;
+    font-weight: bold;
+    padding: 2vw;
 }
 
 .textoGen{
@@ -111,7 +126,6 @@ nav li{
     font-weight: bold;
     margin-left: 15vw;
     margin-right: 15vw;
-    padding: 1vw;
 }
 
 /* PARTE DO HOVER PRINCIPAL */
