@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 
 
@@ -15,13 +16,54 @@ header{
 }
 
 nav{
-    display: flex;
     align-self: center;
 }
 
+nav li{
+    display: inline-block;
+}
+
+.dropdownMenu{
+    position: absolute;
+    background-color: #E5E1E0;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+
+.dropdownMenu a{
+    display: block;
+    color: #880404;
+    text-decoration: none;
+    padding: 0.5vh;
+}
+
+.dropdownMenu a:hover{
+    background-color: #8DC6BA;
+    color: #E5E1E0;
+}
+
+.dropdown:hover .dropdownMenu{
+    display: block;
+}
 
 .linkMenu{
-    margin-left: 10vw;
+    margin-left: 8vw;
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    padding: 2vh;
+}
+
+.linkMenu1{
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    padding: 2vh;
+}
+
+.linkMenu2{
+    margin-left: 8vw;
+    margin-right: 8vw;
     text-decoration: none;
     color: white;
     font-size: 3vh;
@@ -30,7 +72,15 @@ nav{
 
 .linkMenu:hover{
     color: #E5E1E0;
-    font-size: 3.1vh;
+    font-weight: bold;
+}
+
+.linkMenu1:hover{
+    color: #E5E1E0;
+}
+
+.linkMenu2:hover{
+    color: #E5E1E0;
     font-weight: bold;
 }
 
