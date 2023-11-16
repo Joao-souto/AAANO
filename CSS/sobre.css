@@ -91,7 +91,59 @@ nav li{
     margin-left: 4vw;
 }
 
+            /* MAIN */
 
+.center{
+    text-align: center;
+}
+
+.title{
+    color: #880404;
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 7vh;
+}
+
+.his{
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.his1{
+    font-size: 2vw;
+    font-weight: bold;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    margin-bottom: 10vh;
+}
+
+#ftSobre{
+    width: 60vw;
+    margin-top: 5vh;
+}
+
+.dados{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form{
+    background-color: #8DC6BA;
+    color: white;
+    padding: 2vw;
+    font-size: 2.5vw;
+    font-weight: bold;
+    border-radius: 2vw;
+}
+
+.info{
+    padding: 1.5vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
 
             /* RODAPÉ */
 footer{
