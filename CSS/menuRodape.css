@@ -28,6 +28,8 @@ nav li{
     background-color: #E5E1E0;
     box-shadow: 0 0 2px black;
     display: none;
+    text-align: center;
+    margin-left: 1vw;
 }
 
 .dropdownMenu a{
@@ -38,7 +40,7 @@ nav li{
 }
 
 .dropdownMenu a:hover{
-    background-color: #8DC6BA;
+    background-color: #880404;
     color: #E5E1E0;
 }
 
@@ -51,6 +53,7 @@ nav li{
     text-decoration: none;
     color: white;
     font-size: 3vh;
+    font-weight: bold;
     padding: 2vh;
 }
 
@@ -58,6 +61,7 @@ nav li{
     text-decoration: none;
     color: white;
     font-size: 3vh;
+    font-weight: bold;
     padding: 2vh;
 }
 
@@ -67,6 +71,7 @@ nav li{
     text-decoration: none;
     color: white;
     font-size: 3vh;
+    font-weight: bold;
     padding: 2vh;
 }
 
@@ -81,7 +86,6 @@ nav li{
 
 .linkMenu2:hover{
     color: #E5E1E0;
-    font-weight: bold;
 }
 
 #logo{
