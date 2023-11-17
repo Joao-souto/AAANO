@@ -118,17 +118,15 @@ footer{
 .iconRod{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 1.5vw;
-     
 }
 
 .ctt{
-    background-color: #880404;
     color: white;
-    padding: 2vh;
-    font-size: 3vh;
+    padding: 1vh;
+    font-size: 5vh;
     font-weight: bold;
     margin: 3vh;
+    margin-bottom: 0;
     border-radius: 15px;
 }
 
@@ -140,6 +138,7 @@ footer{
 
 .c1{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -148,10 +147,11 @@ footer{
     margin: 0.4vw;
 }
 
+
 .icon1{
-    width: 1.5vw;
+    width: 1.7vw;
     margin: 0.4vw;
-    margin-left: 1.5vw;
+    margin-left: -1vw;
 }
 
 .ddd{
@@ -184,6 +184,62 @@ span{
     footer{
         width: 100vw;
     }
+
+    #logo{
+        height: 10vh;
+        margin-left: 1.5vw;
+    }
+
+    #logoFooter{
+        height: 10vh;
+    }
+
+    .h2Footer{
+        margin-top: -24px;
+        font-size: 13px;
+    }
+
+    .ctt{
+        padding: 7px;
+        font-size: 3.5vh;
+        border-radius: 10px;
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+
+    .icon{
+        width: 7vw;
+    }
+
+    .icon1{
+        width: 5vw;
+        margin: 3px;
+    }
+
+    .contatos{
+        margin: 0;
+        justify-content: center;
+        margin-bottom: 4vh;
+    }
+
+    .c1{
+        justify-content: center;
+        margin: 1.5vw;
+    }
+
+    .c1 p{
+        margin: 0;
+    }
+
+    .iconRod{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ddd{
+        margin: 0;
+    }
+
     
 }
 
