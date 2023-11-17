@@ -43,8 +43,11 @@
 
 /* PARTE DO HOVER PRINCIPAL */
 
-.txt{
+.removendo{
     text-decoration: none;
+}
+
+.txt{
     font-size: 2.3vw;
     font-weight: bold;
     color: white;

@@ -1,0 +1,72 @@
+#adoteResp{
+    width: 100vw;
+}
+
+h1{
+    color: white;
+    margin-top: -26vw;
+    margin-bottom: 10vw;
+    margin-left: 6vw;   
+    font-size:5.5vw;
+}
+
+#ptcinza{
+    background-color: #E5E1E0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textGen{
+    font-size: 1.5vw;
+    font-weight: bold;
+    padding: 5vw;
+    padding-bottom: 3vw;
+}
+
+#btnSaibaMais{
+    text-decoration: none;
+    color: white;
+    background-color: #880404;
+    padding: 0.5vw;
+    font-size: 1vw;
+    border-radius: 0.5vw;
+    margin-bottom: 2vw;
+}
+
+#btnSaibaMais:hover{
+    background-color:   #813636;
+}
+
+/*          PRINCIPAL */
+
+main h2{
+    text-align: center;
+    padding: 2vw;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #880404;
+}
+
+#filtro{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: #E5E1E0;
+    padding: 0.3vw;
+    font-size: 1vw;
+    font-weight: bold;
+    border-radius: 0.5vw;
+    margin: 1vw;
+}
+
+button:hover{
+    background-color: #8DC6BA;
+    color: white;
+}
+
+/*          CARD */
+
