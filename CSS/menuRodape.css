@@ -167,3 +167,23 @@ span{
     font-size: small;
     margin-bottom: 0;
 }
+
+
+/*          RESPONSIVIDADE */
+
+@media(max-width:481px) {
+
+    header{
+        width: 100vw;
+    }
+
+    main{
+        width: 100vw;
+    }
+
+    footer{
+        width: 100vw;
+    }
+    
+}
+
