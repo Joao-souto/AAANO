@@ -9,93 +9,49 @@
 
             /* MENU DE NAVEGAÇÃO */
 
-header{
-    background-color: #8DC6BA;
+.link-menu{
+    color: white;
+    text-decoration: none;
+    font-size: 3.5vh;
+    font-weight: bold;
+}
+
+.link-menu:hover{
+    color: #E5E1E0;
+}
+
+#logo-menu{
     height: 15vh;
-    display: flex;
 }
 
 nav{
-    align-self: center;
-}
-
-nav li{
-    display: inline-block;
-}
-
-.dropdownMenu{
-    position: absolute;
-    background-color: #E5E1E0;
-    box-shadow: 0 0 2px black;
-    display: none;
-    text-align: center;
-    margin-left: 1.55vw; 
-}
-
-.dropdownMenu a{
-    display: block;
-    color: #880404;
-    text-decoration: none;
-    padding: 0.5vh;
-}
-
-.dropdownMenu a:hover{
-    background-color: #880404;
-    color: #E5E1E0;
-}
-
-.dropdown:hover .dropdownMenu{
-    display: block;
-}
-
-.linkMenu{
-    margin-left: 8vw;
-    text-decoration: none;
-    color: white;
-    font-size: 3vh;
-    font-weight: bold;
-    padding: 2vh;
-}
-
-.linkMenu1{
-    text-decoration: none;
-    color: white;
-    font-size: 3vh;
-    font-weight: bold;
-    padding: 2vh;
-}
-
-.linkMenu2{
-    margin-left: 8vw;
-    margin-right: 8vw;
-    text-decoration: none;
-    color: white;
-    font-size: 3vh;
-    font-weight: bold;
-    padding: 2vh;
-}
-
-.linkMenu:hover{
-    color: #E5E1E0;
-    font-weight: bold;
-}
-
-.linkMenu1:hover{
-    color: #E5E1E0;
-}
-
-.linkMenu2:hover{
-    color: #E5E1E0;
-}
-
-#logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8DC6BA;
     height: 15vh;
-    align-self: center;
-    margin-right: 3vw;
-    margin-left: 4vw;
 }
 
+.nav-list{
+    list-style: none;
+    display: flex;
+}
 
+.nav-list li{
+    margin-left: 5vw;
+}
+
+.menuResp{
+    cursor: pointer;
+    display: none;
+}
+
+.menuResp div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
 
             /* RODAPÉ */
 footer{
@@ -170,6 +126,52 @@ span{
 
 
 /*          RESPONSIVIDADE */
+
+
+@media(max-width: 999px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-list{
+        position: absolute;
+        top: 15vh;
+        right: 0;
+        width: 40vw;
+        height: 85vh;
+        background-color: #8DC6BA;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li{
+        margin-left: 0;
+    }
+
+    .menuResp{
+        display: block;
+    }
+}
+
+.nav-list.active{
+    transform: translateX(0);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 
 @media(max-width:481px) {
 
