@@ -51,6 +51,7 @@ nav{
     height: 2px;
     background-color: #fff;
     margin: 8px;
+    transition: 0.3s;
 }
 
             /* RODAPÉ */
@@ -170,6 +171,18 @@ span{
         opacity: 1;
         transform: translateX(0);
     }
+}
+
+.menuResp.active .linha1{
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.menuResp.active .linha2{
+    opacity: 0;
+}
+
+.menuResp.active .linha3{
+    transform: rotate(45deg) translate(-5px, -7px);
 }
 
 
