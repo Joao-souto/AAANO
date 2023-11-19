@@ -186,7 +186,7 @@ span{
 }
 
 
-@media(max-width:481px) {
+@media(max-width:999px) {
 
     header{
         width: 100vw;
