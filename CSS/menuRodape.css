@@ -139,7 +139,7 @@ span{
         position: absolute;
         top: 15vh;
         right: 0;
-        width: 40vw;
+        width: 65vw;
         height: 85vh;
         background-color: #8DC6BA;
         flex-direction: column;
@@ -216,7 +216,7 @@ span{
 
     .ctt{
         padding: 7px;
-        font-size: 3.5vh;
+        font-size: 3vh;
         border-radius: 10px;
         margin-left: 30vw;
         margin-right: 30vw;
