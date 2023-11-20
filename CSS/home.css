@@ -175,7 +175,7 @@
 
 .fundoHover:hover{
     background-color: #E5E1E0;
-    border: solid 1px #880404;
+    box-shadow: 4px 4px 10px #8DC6BA;
     .txt{
         color: #880404;
     }
