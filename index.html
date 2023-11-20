@@ -22,7 +22,7 @@
         <ul class="nav-list">
             <li><a href="index.html" class="link-menu">Home</a></li>
             <li><a href="HTML/sobre.html" class="link-menu">Sobre</a></li>
-            <li><a href="/" class="link-menu">Ajude</a></li>
+            <li><a href="#ajude" class="link-menu">Ajude</a></li>
             <li><a href="HTML/transparencia.html" class="link-menu">Transparência</a></li>
         </ul>
     </nav>
@@ -33,9 +33,45 @@
       <h1 class="titulo1">Não compre!</h1>
     </div>
 
+    <div class="slider">
+
+      <div class="slides">
+
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+
+        <div class="slide first">
+          <img src="IMG/1.jpg" alt="Imagem de animais">
+        </div>
+
+        <div class="slide">
+          <img src="IMG/2.jpg" alt="Imagem de animais">
+        </div>
+
+        <div class="slide">
+          <img src="IMG/3.jpg" alt="Imagem de animais">
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+        </div>
+
+      </div>
+
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
+
+    </div>
+
 
     <div class="ajudeAnimais">
-      <h2 class="titulo">Ajude os Animais!</h2>
+      <h2 class="titulo" id="ajude">Ajude os Animais!</h2>
       <p class="textoGen">Precisamos cuidar dos animais e existem várias formas de fazer isso:</p>
     </div>
 
@@ -119,6 +155,7 @@
   </footer>
 
     <script src="JS/menuResp.js"></script>
+    <script src="JS/carrossel.js"></script>
 </body>
 
 </html>
