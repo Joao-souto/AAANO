@@ -13,7 +13,7 @@
 .slider{
     margin: 0 auto;
     width: 100vw;
-    height: 687px;
+    height: 65vh;
     overflow: hidden;
 }
 
@@ -30,7 +30,7 @@
 .slide{
     width: 25%;
     position: relative;
-    transition: 2s;
+    transition: 1.5s;
 }
 
 .slide img{
@@ -111,6 +111,7 @@
 .ajudeAnimais{
     text-align: center;
     background-color: #E5E1E0;
+    padding: 5vh;
 }
 
 .ajudeAnimais1{
@@ -176,7 +177,6 @@
     background-color: #E5E1E0;
     border: solid 1px #880404;
     .txt{
-        font-size: 2.7vw;
         color: #880404;
     }
 }
