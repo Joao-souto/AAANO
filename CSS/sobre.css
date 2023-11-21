@@ -35,13 +35,18 @@
 }
 
 #ftSobre{
-    width: 60vw;
+    width: 70vw;
     margin-top: 5vh;
 }
 
 .dados{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#resp{
+    display: none;
 }
 
 .form{
@@ -58,4 +63,47 @@
     font-size: 1.5vw;
     font-weight: bold;
     margin-bottom: 5vh;
+}
+
+/* RESPONSIVIDADE */
+
+@media(max-width: 999px){
+    .title{
+        font-size: 5vh;
+    }
+
+    #ftSobre{
+        width: 90vw;
+    }
+
+    .his, .his1{
+        font-size: 2vh;
+        margin: 2vw;
+    }
+
+    .dados{
+        display: none;
+    }
+
+    #resp{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+        text-align: center;
+    }
+
+    .cat{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .form{
+        font-size: 3vh;
+    }
+
+    .info{
+        font-size: 2vh;
+    }
+
+
 }
