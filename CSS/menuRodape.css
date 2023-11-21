@@ -207,12 +207,12 @@ span{
     }
 
     #logoFooter{
-        height: 10vh;
+        height: 12vh;
     }
 
     .h2Footer{
         margin-top: -24px;
-        font-size: 13px;
+        font-size: 2vh;
     }
 
     .ctt{
@@ -245,6 +245,7 @@ span{
 
     .c1 p{
         margin: 0;
+        font-size: 2vh;
     }
 
     .iconRod{
@@ -253,7 +254,8 @@ span{
     }
 
     .ddd{
-        margin: 0;
+        margin: 2vh;
+        font-size: 2vh;
     }
 
     

@@ -44,7 +44,7 @@
 .manual-navigation{
     position: absolute;
     width: 100vw;
-    margin-top: 12vh;
+    margin-top: 16vh;
     display: flex;
     justify-content: center;
 }
