@@ -18,6 +18,7 @@
 
 .link-menu:hover{
     color: #E5E1E0;
+    font-size: 3.6vh
 }
 
 #logo-menu{
@@ -105,11 +106,19 @@ footer{
     margin: 0.4vw;
 }
 
+.icon:hover{
+    width: 3.2vw;
+}
+
 
 .icon1{
     width: 1.7vw;
     margin: 0.4vw;
     margin-left: -1vw;
+}
+
+.icon1:hover{
+    width: 1.8vw;
 }
 
 .ddd{

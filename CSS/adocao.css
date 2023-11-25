@@ -48,26 +48,6 @@ main h2{
     font-weight: bold;
     color: #880404;
 }
-
-#filtro{
-    display: flex;
-    justify-content: center;
-}
-
-button{
-    background-color: #E5E1E0;
-    padding: 0.3vw;
-    font-size: 1vw;
-    font-weight: bold;
-    border-radius: 0.5vw;
-    margin: 1vw;
-}
-
-button:hover{
-    background-color: #8DC6BA;
-    color: white;
-}
-
 /*          CARD */
 
 .container-card{
