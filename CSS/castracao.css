@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+#ct{
+    width: 100vw;
+}
+
+.ptCinza{
+    background-color: #E5E1E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1vh;
+    text-align: center;
+    padding: 3vh;
+}
+
+.textos{
+    margin-left: 5vw;
+    margin-right: 10vw;
+}
+
+#img2{
+    margin-left: 5vw;
+}
+
+main h1,main h2{
+    color: #880404;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+main p{
+    font-size: 3vh;
+    font-weight: bold;
+    margin: 5vh;
+}
+
+#btnA{
+    text-decoration: none;
+    color: white;
+    font-size: 2vh;
+    font-weight: bold;
+    background-color: #880404;
+    padding: 2vh;
+    border-radius: 10px;
+}
+
+#btnA:hover{
+    font-size: 2.5vh;
+}
+
+.center{
+    text-align: center;
+    margin: 5vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
