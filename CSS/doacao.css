@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+#imgP{
+    width: 100vw;
+}
+
+.ptCinza{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E1E0;
+    padding: 3vh;
+    margin-top: -1vh;
+}
+
+.iconA{
+    width: 15vw;
+    margin: 2vh;
+}
+
+.texto{
+    color: #880404;
+    font-size: 4vh;
+    font-weight: bold;
+    margin-left: 22vw;
+    margin-right: 22vw;
+}
+
+.areaPix{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p{
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.a2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#san{
+    width: 45vw;
+    margin-bottom: -2vw;
+}
+
+#logoPix{
+    width: 6vw;
+    margin: 1vw;
+}
+
+#qrcode{
+    width: 30vw;
+    margin-top: 4vh;
+}

@@ -171,6 +171,7 @@
 }
 
 .fundoHover{
+    box-shadow: 4px 4px 7px black;
     background-color: #8DC6BA;
     padding: 2vw;
     margin: 2vw;
