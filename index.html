@@ -8,64 +8,36 @@
   <link rel="shortcut icon" href="IMG/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="CSS/home.css">
   <link rel="stylesheet" href="CSS/menuRodape.css">
- </head>
+</head>
 
 <body>
   <header>
+    <img src="IMG/logoMenu.png" alt="Logo da AAANO" id="logoMenu">
+    <div class="menuToggle"></div>
+
     <nav>
-        <img src="IMG/logoMenu.png" alt="Logo Menu" id="logo-menu">
-        <div class="menuResp">
-            <div class="linha1"></div>
-            <div class="linha2"></div>
-            <div class="linha3"></div>
-        </div>
-        <ul class="nav-list">
-            <li><a href="index.html" class="link-menu">Home</a></li>
-            <li><a href="HTML/sobre.html" class="link-menu">Sobre</a></li>
-            <li><a href="#ajude" class="link-menu">Ajude</a></li>
-            <li><a href="HTML/transparencia.html" class="link-menu">Transparência</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="HTML/sobre.html">Sobre</a></li>
+        <li><a href="#">Ajude <b>▾</b></a>
+          <ul>
+            <li><a href="HTML/adocao.html">Adote</a></li>
+            <li><a href="HTML/doacao.html">Doe</a></li>
+            <li><a href="HTML/castracao.html">Castre</a></li>
+            <li><a href="HTML/denuncie.html">Denuncie</a></li>
+          </ul>
+        </li>
+        <li><a href="HTML/transparencia.html">Transparência</a></li>
+      </ul>
     </nav>
   </header>
   <main>
 
-    <div class="slider">
-
-      <div class="slides">
-
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-
-        <div class="slide first">
-          <img src="IMG/1.jpg" alt="Imagem de animais">
-        </div>
-
-        <div class="slide">
-          <img src="IMG/2.jpg" alt="Imagem de animais">
-        </div>
-
-        <div class="slide">
-          <img src="IMG/3.jpg" alt="Imagem de animais">
-        </div>
-
-        <div class="navigation-auto">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-        </div>
-
-      </div>
-
-      <div class="manual-navigation">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-      </div>
-
-    </div>
 
     <img src="IMG/1.jpg" alt="" id="img-resp">
+    <img src="IMG/1.jpg" alt="" id="img-resp">
+
+    <div class="preenchendo"></div>
 
     <div class="ajudeAnimais">
       <h2 class="titulo" id="ajude">Ajude os Animais!</h2>
@@ -151,8 +123,8 @@
 
   </footer>
 
-    <script src="JS/menuResp.js"></script>
-    <script src="JS/carrossel.js"></script>
+  <script src="JS/menuResp.js"></script>
+  <script src="JS/carrossel.js"></script>
 </body>
 
 </html>

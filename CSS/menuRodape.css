@@ -1,5 +1,6 @@
 @charset 'utf-8';
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,79 +8,95 @@
 }
 
 
-            /* MENU DE NAVEGAÇÃO */
+/* MENU DE NAVEGAÇÃO */
 
-.link-menu{
-    color: white;
-    text-decoration: none;
-    font-size: 3.5vh;
-    font-weight: bold;
+#logoMenu {
+    height: 14vh;
 }
 
-.link-menu:hover{
-    color: #E5E1E0;
-    font-size: 3.6vh
-}
-
-#logo-menu{
-    height: 15vh;
-}
-
-nav{
+header {
+    position: absolute;
+    background-color: #8DC6BA;
+    width: 100%;
+    height: 18vh;
+    padding: 2vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #8DC6BA;
-    height: 15vh;
 }
 
-.nav-list{
+header ul {
+    position: relative;
+}
+
+header ul li {
     list-style: none;
+    position: relative;
+    float: left;
+}
+
+header ul li a {
+    color: white;
+    font-size: 1.5em;
+    padding: 20px 25px;
+    font-weight: bold;
+    text-decoration: none;
     display: flex;
+    justify-content: space-between;
 }
 
-.nav-list li{
-    margin-left: 5vw;
+header ul li a:hover {
+    color: #E5E1E0;
 }
 
-.menuResp{
-    cursor: pointer;
+header ul li ul {
+    position: absolute;
+    left: 0;
+    width: auto;
+    background-color: #8DC6BA;
     display: none;
 }
 
-.menuResp div{
-    width: 32px;
-    height: 2px;
-    background-color: #fff;
-    margin: 8px;
-    transition: 0.3s;
+header ul li:hover ul {
+    display: block;
 }
 
-            /* RODAPÉ */
-footer{
+header ul li ul li {
+    position: relative;
+    width: 100%;
+    border: 1px solid #75a198;
+}
+
+header ul li ul li:hover {
+    background-color: #75a198;
+}
+
+
+/* RODAPÉ */
+footer {
     background-color: #8DC6BA;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 10vh;
 }
 
-#logoFooter{
+#logoFooter {
     height: 10vw;
     margin: 3vh;
 }
 
-.h2Footer{
+.h2Footer {
     font-size: 1.5vw;
     margin-top: -2vw;
     font-weight: bold;
 }
 
-.iconRod{
+.iconRod {
     display: flex;
     justify-content: space-evenly;
 }
 
-.ctt{
+.ctt {
     color: white;
     padding: 1vh;
     font-size: 5vh;
@@ -89,48 +106,48 @@ footer{
     border-radius: 15px;
 }
 
-.contatos{
+.contatos {
     display: flex;
     flex-direction: column;
     margin-left: -25vw;
 }
 
-.c1{
+.c1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.icon{
+.icon {
     width: 3vw;
     margin: 0.4vw;
 }
 
-.icon:hover{
+.icon:hover {
     width: 3.2vw;
 }
 
 
-.icon1{
+.icon1 {
     width: 1.7vw;
     margin: 0.4vw;
     margin-left: -1vw;
 }
 
-.icon1:hover{
+.icon1:hover {
     width: 1.8vw;
 }
 
-.ddd{
+.ddd {
     font-weight: bold;
     margin: 3vh;
 }
 
-span{
+span {
     font-weight: 300;
 }
 
-#copy{
+#copy {
     font-size: small;
     margin-bottom: 0;
 }
@@ -139,94 +156,96 @@ span{
 /*          RESPONSIVIDADE */
 
 
-@media(max-width: 999px){
+@media(max-width: 999px) {
 
-    body{
-        overflow-x: hidden;
+    header {
+    justify-content: space-between;
+    padding: 10px 20px;
     }
 
-    .nav-list{
-        display: none;
+    nav {
         position: absolute;
-        top: 15vh;
-        right: 0;
-        width: 65vw;
-        height: 85vh;
+        width: 100%;
+        top: 18vh;
+        left: 0;
         background-color: #8DC6BA;
-        flex-direction: column;
+        display: none;
+    }
+
+    header.active nav{
+        display: initial;
+    }
+
+    nav ul li{
+        width: 100%;
+    }
+
+    nav ul li ul{
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    nav ul li ul li{
+        background-color: #75a198;
+    }
+
+    .menuToggle{
+        position: relative;
+        width: 40px;
+        height: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
         align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
     }
 
-    .nav-list li{
-        margin-left: 0;
+    .menuToggle::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        transform: translateY(-12px);
+        box-shadow: 0 12px #fff;
     }
 
-    .menuResp{
-        display: block;
+    .menuToggle::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        transform: translateY(12px);
+    }
+
+    header.active .menuToggle::before{
+        transform: rotate(45deg);
+        box-shadow: 0 0 #fff;
+    }
+
+    header.active .menuToggle::after{
+        transform: rotate(315deg);
     }
 }
-
-.nav-list.active{
-    display: flex;
-    transition: transform 2s ease-in;
-    transform: translateX(0);
-}
-
-@keyframes navLinkFade{
-    from{
-        opacity: 0;
-        transform: translateX(50px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.menuResp.active .linha1{
-    transform: rotate(-45deg) translate(-8px, 8px);
-}
-
-.menuResp.active .linha2{
-    opacity: 0;
-}
-
-.menuResp.active .linha3{
-    transform: rotate(45deg) translate(-5px, -7px);
-}
-
 
 @media(max-width:999px) {
 
-    header{
-        width: 100vw;
-    }
-
-    main{
-        width: 100vw;
-    }
-
-    footer{
-        width: 100vw;
-    }
-
-    #logo-menu{
+    #logo-menu {
         height: 11vh;
         margin-left: 1.5vw;
     }
 
-    #logoFooter{
+    #logoFooter {
         height: 12vh;
     }
 
-    .h2Footer{
+    .h2Footer {
         margin-top: -24px;
         font-size: 2vh;
     }
 
-    .ctt{
+    .ctt {
         padding: 7px;
         font-size: 3vh;
         border-radius: 10px;
@@ -234,41 +253,40 @@ span{
         margin-right: 30vw;
     }
 
-    .icon{
+    .icon {
         width: 7vw;
     }
 
-    .icon1{
+    .icon1 {
         width: 5vw;
         margin: 3px;
     }
 
-    .contatos{
+    .contatos {
         margin: 0;
         justify-content: center;
         margin-bottom: 4vh;
     }
 
-    .c1{
+    .c1 {
         justify-content: center;
         margin: 1.5vw;
     }
 
-    .c1 p{
+    .c1 p {
         margin: 0;
         font-size: 2vh;
     }
 
-    .iconRod{
+    .iconRod {
         display: flex;
         flex-direction: column;
     }
 
-    .ddd{
+    .ddd {
         margin: 2vh;
         font-size: 2vh;
     }
 
-    
-}
 
+}
