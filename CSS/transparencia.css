@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#trans{
+    width: 100vw;
+}
+
+main h3{
+    margin-top: 7vh;
+    margin-left: 10vw;
+    color: #8DC6BA;
+    font-size: 3vh;
+}
+
+main p{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+}
+
