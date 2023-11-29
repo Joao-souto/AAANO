@@ -55,3 +55,29 @@ main p{
     margin-left: 20vw;
     margin-right: 20vw;
 }
+
+@media(max-width: 999px){
+    .ptCinza{
+        flex-direction: column;
+    }
+
+    #img2{
+        width: 30vw;
+    }
+
+    .textos{
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .textos p, .center p{
+        font-size: 2vh;
+        margin: 0;
+        margin-bottom: 6vh;
+    }
+
+    main h1, main h2{
+        font-size: 3vh;
+        margin: 2vh;
+    }
+}
