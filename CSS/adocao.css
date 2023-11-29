@@ -70,6 +70,10 @@ main h2{
     box-shadow: 4px 4px 10px #8DC6BA;
 }
 
+.card img{
+    border-radius: 12px;
+}
+
 .info{
     text-align: center;
     padding: 3vh;
@@ -93,4 +97,33 @@ main h2{
     background-color: #880404;
     padding: 7px;
     font-weight: bold;
+}
+
+@media(max-width: 999px){
+    .textGen{
+        font-size: 1.5vh;
+    }
+
+    #btnSaibaMais{
+        font-size: 1.5vh;
+        padding: 1vh;
+        border-radius: 15px;
+    }
+
+    main h2{
+        font-size: 4vh;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+
+    .container-card{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .card{
+        width: 70vw;
+        margin-bottom: 5vh;
+    }
 }
