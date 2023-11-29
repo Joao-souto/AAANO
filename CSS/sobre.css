@@ -56,11 +56,12 @@
     font-size: 2.5vw;
     font-weight: bold;
     border-radius: 2vw;
+    box-shadow: 0 0 12px #8DC6BA;
 }
 
 .info{
     padding: 1.5vw;
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     font-weight: bold;
     margin-bottom: 5vh;
 }

@@ -17,3 +17,12 @@ main p{
     margin-top: 2vh;
 }
 
+@media(max-width: 999px){
+    main h3{
+        font-size: 3vh;
+    }
+    
+    main p{
+        margin-top: 2vh;
+    }
+}
