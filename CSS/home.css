@@ -6,14 +6,16 @@
     box-sizing: border-box;
 }
             /* MAIN */
-
-
-            /* CARROSSEL */
-
-#img-resp{
-    display: none;
+#img1{
+    width: 100vw;
 }
 
+            /* CARROSSEL */
+            
+#img-resp{
+    display: none;
+    margin-top: -1vh;
+}
 
             /* AJUDE */
 
