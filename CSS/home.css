@@ -17,6 +17,35 @@
     margin-top: -1vh;
 }
 
+.slider{
+    margin: 0 auto;
+    width: 100vw;
+    height: auto;
+    padding: o !important;
+    overflow: hidden;
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input{
+    display: none;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.slide-box img{
+    width: 100%;
+}
+
             /* AJUDE */
 
 
