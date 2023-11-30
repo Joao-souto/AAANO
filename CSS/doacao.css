@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+#imgMob {
+    width: 100vw;
+    display: none;
+}
+
 #imgP {
     width: 100vw;
 }
@@ -61,6 +66,15 @@
 
 @media (max-width: 999px) {
 
+    #imgMob {
+        display: block;
+    }
+
+    #imgP {
+        display: none;
+    }
+
+
     .ptCinza {
         padding: 0;
     }
@@ -74,24 +88,24 @@
         flex-direction: column;
     }
 
-    .iconA{
-        width: 15vw;
+    .iconA {
+        width: 20vw;
         margin-top: 5vh;
     }
 
-    .areaPix1{
+    .areaPix1 {
         flex-direction: row;
     }
 
-    #san{
+    #san {
         width: 70vw;
     }
 
-    .p{
+    .p {
         font-size: 1.5vh;
     }
 
-    #qrcode{
+    #qrcode {
         width: 40vw;
     }
 }
