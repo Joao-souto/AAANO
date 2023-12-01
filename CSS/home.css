@@ -51,7 +51,7 @@
 .nav-manual, .nav-auto{
     position: absolute;
     width: 100%;
-    margin-top: 34%;
+    margin-top: 33%;
     display: flex;
     justify-content: center;
 }
