@@ -1,18 +1,22 @@
 #adoteResp{
     width: 100vw;
-    margin-bottom: 5vh;
+    margin-bottom: 12vh;
+}
+
+#adoteMob{
+    display: none;
+    width: 100vw;
 }
 
 h1{
     color: white;
-    margin-top: -26vw;
+    margin-top: -32vw;
     margin-bottom: 10vw;
     margin-left: 6vw;   
-    font-size:5.5vw;
+    font-size:5.8vw;
 }
 
 #ptcinza{
-    margin-top: -3vh;
     background-color: #E5E1E0;
     text-align: center;
     display: flex;
@@ -131,13 +135,27 @@ main h2{
 }
 
 @media(max-width: 999px){
+
+    #adoteResp, h1{
+        display: none;
+    }
+
+    #adoteMob{
+        display: block;
+    }
+
     .textGen{
-        font-size: 1.5vh;
+        display: none;
+    }
+
+    #ptcinza{
+        background-color: white;
     }
 
     #btnSaibaMais{
-        font-size: 1.5vh;
-        padding: 1vh;
+        font-size: 2vh;
+        font-weight: bold;
+        padding: 1.5vh;
         border-radius: 15px;
     }
 
