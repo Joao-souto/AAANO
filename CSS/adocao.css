@@ -1,5 +1,6 @@
 #adoteResp{
     width: 100vw;
+    margin-bottom: 5vh;
 }
 
 h1{
@@ -11,6 +12,7 @@ h1{
 }
 
 #ptcinza{
+    margin-top: -3vh;
     background-color: #E5E1E0;
     text-align: center;
     display: flex;
@@ -102,6 +104,30 @@ main h2{
 
 .info a:hover{
     background-color: #880404;
+}
+
+.mudanca{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mudanca a{
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    font-weight: bold;
+    box-shadow: 0 0 12px #E5E1E0;
+    padding: 2vh;
+    margin: 1vw;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+
+.mudanca a:hover, #mud1, #mud2{
+    box-shadow: 0 0 12px #8DC6BA;
+    background-color: #8DC6BA;
 }
 
 @media(max-width: 999px){
