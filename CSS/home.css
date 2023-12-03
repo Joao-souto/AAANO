@@ -1,23 +1,30 @@
 @charset 'utf-8';
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
 }
-            /* MAIN */
-#img1{
+
+/* MAIN */
+#img1 {
     width: 100vw;
 }
 
-#img1-mob{
+#img1-mob {
     width: 100vw;
     display: none;
 }
 
-            /* CARROSSEL */
+.preenchendo1 {
+    display: none;
+    height: 20vh;
+}
 
-.slider{
+/* CARROSSEL */
+
+.slider {
     margin: 0 auto;
     width: 100vw;
     height: auto;
@@ -26,17 +33,18 @@
     margin-top: -1.2vh;
 }
 
-.slider-content{
+.slider-content {
     width: 400%;
     height: auto;
     display: flex;
 }
 
-.slider-content input,.img-mob{
+.slider-content input,
+.img-mob {
     display: none;
 }
 
-.slide-box{
+.slide-box {
     width: 25%;
     height: auto;
     position: relative;
@@ -44,11 +52,12 @@
     transition: 1s;
 }
 
-.slide-box img{
+.slide-box img {
     width: 100%;
 }
 
-.nav-manual, .nav-auto{
+.nav-manual,
+.nav-auto {
     position: absolute;
     width: 100%;
     margin-top: 33%;
@@ -56,7 +65,8 @@
     justify-content: center;
 }
 
-.nav-manual .manual-btn, .nav-auto div{
+.nav-manual .manual-btn,
+.nav-auto div {
     border: 1px solid #880404;
     padding: 10px;
     border-radius: 50%;
@@ -64,48 +74,50 @@
     transition: 0.25s;
 }
 
-.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto div:not(:last-child) {
     margin-right: 10px;
 }
 
-.nav-manual .manual-btn:hover{
+.nav-manual .manual-btn:hover {
     background-color: #880404;
 }
 
-#radio1:checked ~ .nav-auto .auto-btn1{
+#radio1:checked~.nav-auto .auto-btn1 {
     background-color: #880404;
 }
 
-#radio2:checked ~ .nav-auto .auto-btn2{
+#radio2:checked~.nav-auto .auto-btn2 {
     background-color: #880404;
 }
 
-#radio3:checked ~ .nav-auto .auto-btn3{
+#radio3:checked~.nav-auto .auto-btn3 {
     background-color: #880404;
 }
 
-#radio1:checked ~ .primeiro{
+#radio1:checked~.primeiro {
     margin-left: 0%;
 }
 
-#radio2:checked ~ .primeiro{
+#radio2:checked~.primeiro {
     margin-left: -25%;
 }
 
-#radio3:checked ~ .primeiro{
+#radio3:checked~.primeiro {
     margin-left: -50%;
 }
-            /* AJUDE */
+
+/* AJUDE */
 
 
-.ajudeAnimais{
+.ajudeAnimais {
     text-align: center;
     background-color: #E5E1E0;
     padding: 7vh;
     margin-top: -2.1vh;
 }
 
-.ajudeAnimais1{
+.ajudeAnimais1 {
     background-color: #8DC6BA;
     margin-bottom: -2vh;
     display: flex;
@@ -113,21 +125,21 @@
     align-items: center;
 }
 
-.titulo{
+.titulo {
     color: #880404;
     font-size: 6vw;
     font-weight: bold;
     padding: 2vw;
 }
 
-.titulo1{
+.titulo1 {
     color: white;
     font-size: 6vw;
     font-weight: bold;
     padding: 2vw;
 }
 
-.textoGen{
+.textoGen {
     font-size: 3vw;
     font-weight: bold;
     margin-left: 15vw;
@@ -136,27 +148,27 @@
 
 /* PARTE DO HOVER PRINCIPAL */
 
-.removendo{
+.removendo {
     text-decoration: none;
 }
 
-.txt{
+.txt {
     font-size: 2.3vw;
     font-weight: bold;
     color: white;
 }
 
-.ptr{
+.ptr {
     display: flex;
     justify-content: center;
 }
 
-.iconHover{
+.iconHover {
     width: 11vw;
     margin: 1.9vw;
 }
 
-.fundoHover{
+.fundoHover {
     box-shadow: 2px 2px 4px black;
     background-color: #8DC6BA;
     padding: 2vw;
@@ -165,10 +177,11 @@
     border-radius: 4rem;
 }
 
-.fundoHover:hover{
+.fundoHover:hover {
     background-color: #E5E1E0;
     box-shadow: 4px 4px 10px #8DC6BA;
-    .txt{
+
+    .txt {
         color: #880404;
     }
 }
@@ -176,61 +189,64 @@
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 999px){
+@media (max-width: 999px) {
 
-    #img1{
-        display: none;
-    }
-    
-    #img1-mob{
-        display: block;
-    }
-    
-
-    .img-desktop{
+    #img1 {
         display: none;
     }
 
-    .img-mob{
+    #img1-mob {
         display: block;
     }
 
-    .nav-auto, .nav-manual{
+
+
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mob {
+        display: block;
+    }
+
+    .nav-auto,
+    .nav-manual {
         margin-top: 125%;
     }
 
-    .titulo1{
+    .titulo1 {
         margin-bottom: 5vh;
         font-size: 4vh;
     }
 
 
-    #ajude{
+    #ajude {
         font-size: 4vh;
     }
 
-    .textoGen{
+    .textoGen {
         font-size: 3vh;
         margin-left: 2vw;
         margin-right: 2vw;
     }
 
-    .ptr{
+    .ptr {
         flex-direction: column;
         align-items: center;
     }
 
-    .fundoHover{
+    .fundoHover {
         width: 45vw;
         padding: 6vw;
         border-radius: 10px;
     }
 
-    .iconHover{
-        width: 20vw;;
+    .iconHover {
+        width: 20vw;
+        ;
     }
 
-    .txt{
+    .txt {
         font-size: 5vw;
     }
 }
