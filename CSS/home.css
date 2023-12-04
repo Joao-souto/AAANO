@@ -19,7 +19,7 @@
 
 .preenchendo1 {
     display: none;
-    height: 20vh;
+    height: 18vh;
 }
 
 /* CARROSSEL */
@@ -191,6 +191,8 @@
 
 @media (max-width: 999px) {
 
+
+
     #img1 {
         display: none;
     }
@@ -198,7 +200,6 @@
     #img1-mob {
         display: block;
     }
-
 
 
     .img-desktop {

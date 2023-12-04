@@ -8,9 +8,7 @@ menuToggle.addEventListener("click", () => {
 
 const btn2 = document.querySelector("#btn2");
 const ptRover = document.querySelector("#ptRover");
-const preenche = document.querySelector(".preenchendo1");
 
 btn2.addEventListener("click", () => {
     ptRover.style.display = (ptRover.style.display === 'block') ? 'none' : 'block';
-    preenche.style.display = (preenche.style.display === 'block') ? 'none' : 'block';
 });
