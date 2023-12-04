@@ -140,6 +140,7 @@ main h2{
     background-color: #8DC6BA;
     margin-left: 35vw;
     margin-right: 35vw;
+    margin-top: 9vh;
     padding: 2vh;
     display: flex;
     flex-direction: column;
@@ -188,7 +189,7 @@ main h2{
         background-color: white;
     }
 
-    #btnSaibaMais{
+    #btnSaibaMais, .volte{
         font-size: 2vh;
         font-weight: bold;
         padding: 1.5vh;
@@ -196,7 +197,7 @@ main h2{
     }
 
     main h2{
-        font-size: 4vh;
+        font-size: 5vh;
         margin-top: 4vh;
         margin-bottom: 4vh;
     }
@@ -211,4 +212,16 @@ main h2{
         width: 70vw;
         margin-bottom: 5vh;
     }
+
+    .Info-Imp{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .detalhes{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 2.5vh;
+    }
+
 }
