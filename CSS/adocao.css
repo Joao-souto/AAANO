@@ -134,6 +134,37 @@ main h2{
     background-color: #8DC6BA;
 }
 
+/* SAIBA MAIS */
+
+.Info-Imp{
+    background-color: #8DC6BA;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 7vh;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #E5E1E0;
+    margin-bottom: 8vh;
+}
+
+.Info-Imp p{
+    color: white;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.detalhes{
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
 @media(max-width: 999px){
 
     #adoteResp, h1{
