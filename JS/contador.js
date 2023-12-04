@@ -7,10 +7,10 @@ let form4 = document.querySelector(".form4");
 let i = 0;
 
 setInterval(() => {
-    i++;
+    i = i+10;
 
     if (i < 26) {
-        form1.innerHTML = `+${i}`;
+        form1.innerHTML = `+${i+5}`;
     }
 
     if (i < 8001) {
@@ -24,4 +24,4 @@ setInterval(() => {
     if (i < 6001) {
         form4.innerHTML = `+${i}`;
     }
-}, 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005);
+}, 1);
