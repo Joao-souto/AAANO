@@ -31,7 +31,7 @@ h1{
     padding-bottom: 3vw;
 }
 
-#btnSaibaMais{
+#btnSaibaMais, .volte{
     text-decoration: none;
     color: white;
     background-color: #880404;
@@ -41,7 +41,7 @@ h1{
     margin-bottom: 2vw;
 }
 
-#btnSaibaMais:hover{
+#btnSaibaMais:hover, .volte:hover{
     background-color:   #813636;
     font-size: 2.7vh;
 }
@@ -163,6 +163,11 @@ main h2{
     margin-right: 20vw;
     font-weight: bold;
     font-size: 3vh;
+}
+
+.ctn{
+    text-align: center;
+    margin-top: 5vh;
 }
 
 @media(max-width: 999px){
