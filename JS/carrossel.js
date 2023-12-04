@@ -5,7 +5,7 @@ document.getElementById("radio1").checked = true;
 
 setInterval(() => {
     proximaImg();
-}, 9000);
+}, 7000);
 
 function proximaImg() {
     i++;
